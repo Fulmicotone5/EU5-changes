@@ -614,6 +614,8 @@
  a_flying_battery_desc: "Artilharia é devastadora no campo de batalha, mas completamente inútil se o inimigo não estiver ao alcance dos disparos. Uma $a_flying_battery$ tem a capacidade de se deslocar para onde for necessário e partir rapidamente antes da retaliação inimiga."
  a_order_knights: "Cavaleiros da Ordem"
  a_order_knights_desc: "Em uma ordem de cavaleiros, seus membros devem ser proficientes em combate e servir aos interesses da ordem em batalha. Por isso, os $a_order_knights$ são os melhores soldados que qualquer ordem pode oferecer."
+ a_order_knights_2: "Bannerets of the Order"
+ a_order_knights_2_desc: "The $a_order_knights_2$ are the most experienced and skilled knights of the order, often leading smaller units of soldiers into battle under their own banner."
  a_conscripts: "Conscritos"
  a_conscripts_desc: "Soldados relutantes obrigados a lutar, os $a_conscripts$ em massa podem superar um exército treinado com seus números."
  a_logistics_corps: "Corporações de Logística"
