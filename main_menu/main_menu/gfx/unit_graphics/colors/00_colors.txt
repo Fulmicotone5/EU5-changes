@@ -1,3 +1,0 @@
-﻿color_leather_whitened						= hex{ 0xffffffff }
-color_leather_blackened						= hex{ 0xff333333 }
-gold										= hex{ 0xe7b70777 }
