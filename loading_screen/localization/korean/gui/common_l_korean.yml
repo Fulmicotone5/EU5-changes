@@ -2,6 +2,8 @@
  CLOSE: "닫기"
  CLOSE_TAB: "탭 닫기"
  BACK: "이전"
+ COLLAPSE: "Collapse"
+ EXPAND: "Expand"
  SHOW_HISTORY: "패널 이력 표시"
  CLOSE_TOOLTIP: "닫기"
  BACK_TOOLTIP_LEFT: "뒤로"

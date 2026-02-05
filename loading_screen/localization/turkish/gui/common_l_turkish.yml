@@ -2,6 +2,8 @@
  CLOSE: "Kapat"
  CLOSE_TAB: "Sekmeyi Kapat"
  BACK: "Geri"
+ COLLAPSE: "Collapse"
+ EXPAND: "Expand"
  SHOW_HISTORY: "Panel geçmişini göster"
  CLOSE_TOOLTIP: "Kapat"
  BACK_TOOLTIP_LEFT: "Geri Git"
