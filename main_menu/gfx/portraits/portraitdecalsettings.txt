@@ -1,3 +1,0 @@
-﻿srgb_decal_diffuse_textures		 = yes
-srgb_decal_properties_textures	 = yes
-srgb_decal_normal_textures		 = no

@@ -1,7 +1,0 @@
-﻿example_lifetime_component = {
-	aggregate_members = {
-		lifetime = {
-			type_name = Float
-		}
-	}
-}
