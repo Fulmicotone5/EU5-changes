@@ -301,7 +301,7 @@
  BEST_POSSIBLE_SHIPS: "Can build the following [ships|e]"
  
  SUBJECT_UPKEEP_BASE: "Base Value: $VAL|-=2$"
- SUBJECT_UPKEEP_RELATIVE: "Relative Power: $VAL|-=2$"
+ SUBJECT_UPKEEP_RELATIVE: "Relative Power: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=2L$#!"
  SUBJECT_UPKEEP_RANK: "[country_rank|e]: $VAL|-=%2$"
  SUBJECT_UPKEEP_COMMON_DIALECT: "Same [dialect|e]: $VAL|-=%2$"
  SUBJECT_UPKEEP_COMMON_LANGUAGE: "Same [language|e]: $VAL|-=%2$"
@@ -309,6 +309,11 @@
  SUBJECT_UPKEEP_COMMON_GROUP: "Same [religion_group|e]: $VAL|-=%2$"
  
  SUBJECT_UPKEEP_TYPE_SCALE: "[SUBJECT_TYPE.GetName]: #V x$VAL|2$#!"
+ 
+ SUB_RELATIVE_POWER_BREAKDOWN: "Relative Power: $VAL|2%$ of [overlord|e]"
+ SUB_RELATIVE_POWER_SUB_OV: "[COUNTRY.GetName] [economical_base|e]: [COUNTRY.GetEconomicalBaseWithLabel]\n[TARGET_COUNTRY.GetName] [economical_base|e]: [TARGET_COUNTRY.GetEconomicalBaseWithLabel]"
+ SUB_RELATIVE_POWER_SCALE_MIN: "Relative Power % multiplied by $SCALE|x2R$ =>: $VAL|R2$"
+ 
  
  AGE_PREF_BRK_TITLE: "#T $NAME$#!"
  ADVANCES_INFO_OF_COUNTRY: "Interesting Advances of [Country.GetLongNameWithNoTooltip]"
@@ -552,10 +557,10 @@
  PROXIMITY_FROM_INFO_DAT: "Proximity Cost from [LOCATION.GetName] to [TARGET_LOCATION.GetName]" 
  PROXIMITY_FROM_INFO_DAT_ARROW: "Proximity Cost of [TARGET_LOCATION.GetName]"
  PROXIMITY_FROM_INFO: "From [LOCATION.GetName] to [TARGET_LOCATION.GetName]:: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=$#! $ICON$"
- PROX_LAKE_IS_MARITIME: "Lakes are always considered to have maximum [maritime_presence|e]."
- PROX_WITH_MARITIME: "With $MARITIME|V2%$ [maritime_presence|e] in [LOCATION.GetName]: $VAL|-=$"
+ PROX_LAKE_IS_MARITIME: "@lake! [lakes|e] are always considered to have maximum [maritime_presence|e]."
+ PROX_WITH_MARITIME: "@maritime_presence! With $MARITIME|V2%$ [maritime_presence|e] in [LOCATION.GetName]: $VAL|-=$"
  PROXIMITY_BASE_WITH_MARITIME_BREAKDOWN_HEADER: "Proximity cost from Maritime $VAL|-=$\n"
- PROX_WITH_MARITIME_WITH_BREAKDOWN: "With $MARITIME|V2%$ [maritime_presence|e] in [LOCATION.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=$#!"
+ PROX_WITH_MARITIME_WITH_BREAKDOWN: "@maritime_presence! With $MARITIME|V2%$ [maritime_presence|e] in [LOCATION.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=$#!"
  PROXIMITY_BASE: "$BASE$: $VAL|-=$"
  PROXIMITY_BASE_WITH_BREAKDOWN: "$BULLET$  $BASE$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=$#!"
  PROXIMITY_BASE_MARITIME_MULTIPLIER: "Multiplied by $VAL$ from [maritime_presence|e]"
@@ -1769,6 +1774,7 @@
  
  DISASTER_MONTLY_CHANCE: "$BULLET$$VAL|2V%$ chance to appear each month.\n\n"
  DISASTER_MODIFIER: "[COUNTRY.GetLongNameWithFlag] gains:\n$MODIFIER$"
+ DISASTER_MODIFIER_TOOLTIP: "$MODIFIER$"
  DISASTER_WILL_END_WHEN: "Will end when\n$WHY$"
  
  STAT_BETTER: "#TOOLTIP:$BREAKDOWN_TAG$ @arrow_up!#!"
