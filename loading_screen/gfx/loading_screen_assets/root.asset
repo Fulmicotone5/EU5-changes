@@ -1,8 +1,0 @@
-entity = {
-	name = "scene_root"	
-
-	locator = {
-		name = "root_locator"
-		position = { 0.0 0.0 0.0 }
-	}
-}
